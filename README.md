@@ -89,8 +89,8 @@ As an extra, I created [Sublime Text snippets](https://github.com/jansensan/perp
 
 **BLURRED** = "blur"  
 **CHANGED** = "change"  
-**FOCUSED** = "focus"  
-**FOCUSED_IN** = "focusin"  
+**FOCUSED** = "focus" [* see Issues section](https://github.com/jansensan/perpetuajs#issues)  
+**FOCUSED_IN** = "focusin" [* see Issues section](https://github.com/jansensan/perpetuajs#issues)  
 **SELECTED** = "select"  
 **SUBMITTED** = "submit"  
 
@@ -99,9 +99,9 @@ As an extra, I created [Sublime Text snippets](https://github.com/jansensan/perp
 ### KeyboardEvent
 
 **FOCUS_LOST** = "focusout"  
-**KEY_DOWN** = "keydown"  
-**KEY_PRESSED** = "keypress"  
-**KEY_UP** = "keyup"  
+**KEY_DOWN** = "keydown" [* see Issues section](https://github.com/jansensan/perpetuajs#issues)   
+**KEY_PRESSED** = "keypress" [* see Issues section](https://github.com/jansensan/perpetuajs#issues)  
+**KEY_UP** = "keyup" [* see Issues section](https://github.com/jansensan/perpetuajs#issues)  
 
 
 ---
