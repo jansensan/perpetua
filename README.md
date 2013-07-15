@@ -20,7 +20,7 @@ Handling events in JavaScript requires the use of string litterals, which is pro
 
 Coming from AS3, I prefer constants, such as `MouseEvent.CLICK` and the likes. In the end, that constant simply returns a string, but it prevents errors.
 
-Perpétua classes allow to use such constants. They are currently based upon the [events that jQuery uses](http://api.jquery.com/category/events/). As this library progresses, I will most probably add touch events and other events that browsers can dispatch in Javascript. 
+Perpétua classes allow to use such constants. They are currently based upon the [events that jQuery uses](http://api.jquery.com/category/events/) and the[DOM events list on Wikipedia](http://en.wikipedia.org/wiki/DOM_events).
 
 If you are curious, "perpétua" is the latin word for constance.
 
@@ -71,6 +71,7 @@ As an extra, I created [Sublime Text snippets](https://github.com/jansensan/perp
 ---
 ### BrowserEvent
 
+**ABORTED** = "abort"  
 **ERROR** = "error"  
 **RESIZED** = "resize"  
 **SCROLLED** = "scroll"
@@ -115,3 +116,14 @@ As an extra, I created [Sublime Text snippets](https://github.com/jansensan/perp
 **MOUSE_MOVED_OUTSIDE** = "mouseout"  
 **MOUSE_MOVED_OVER** = "mouseover"  
 **MOUSE_RELEASED** = "mouseup"  
+
+
+---
+### TouchEvent
+
+**CANCELED** = "touchcancel"  
+**ENDED** = "touchend"  
+**ENTERED** = "touchenter"  
+**LEFT** = "touchleave"  
+**MOVED** = "touchmove"  
+**STARTED** = "touchstart"  

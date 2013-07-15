@@ -22,6 +22,8 @@
 
 	TouchEvent.CANCELED = "touchcancel";
 	TouchEvent.ENDED = "touchend";
+	TouchEvent.ENTERED = "touchenter";
+	TouchEvent.LEFT = "touchleave";
 	TouchEvent.MOVED = "touchmove";
 	TouchEvent.STARTED = "touchstart";
 
