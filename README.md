@@ -20,7 +20,7 @@ Handling events in JavaScript requires the use of string litterals, which is pro
 
 Coming from AS3, I prefer constants, such as `MouseEvent.CLICK` and the likes. In the end, that constant simply returns a string, but it prevents errors.
 
-Perpétua classes allow to use such constants. They are currently based upon the [events that jQuery uses](http://api.jquery.com/category/events/) and the[DOM events list on Wikipedia](http://en.wikipedia.org/wiki/DOM_events).
+Perpétua classes allow to use such constants. They are currently based upon the [events that jQuery uses](http://api.jquery.com/category/events/) and the [DOM events list on Wikipedia](http://en.wikipedia.org/wiki/DOM_events).
 
 If you are curious, "perpétua" is the latin word for constance.
 
