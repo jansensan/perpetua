@@ -63,7 +63,7 @@ See [Penner's article](http://flashblog.robertpenner.com/2009/08/my-critique-of-
 
 ## Documentation
 
-The classes are compressed into a single JS file with [Closure](http://closure-compiler.appspot.com/), removing all whitespace and comments, making it hard to read. Below is the list of the events currently available, as a [quick reference](https://github.com/jansensan/perpetuajs#documentatio).
+The classes are compressed into a single JS file with [Closure](http://closure-compiler.appspot.com/), removing all whitespace and comments, making it hard to read. Below is the list of the events currently available, as a [quick reference](https://github.com/jansensan/perpetuajs#documentation).
 
 As an extra, I created [Sublime Text snippets](https://github.com/jansensan/perpetua/tree/master/extras/perpetua-sublime-snippets), so you may simply use those and autocomplete will kick in to fill in the constant.
 
