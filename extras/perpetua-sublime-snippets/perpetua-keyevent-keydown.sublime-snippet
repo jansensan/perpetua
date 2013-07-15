@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+KeyboardEvent.KEY_DOWN
+]]></content>
+	<tabTrigger>keydown KeyboardEvent.KEY_DOWN</tabTrigger>
+	<scope>source.js</scope>
+</snippet>

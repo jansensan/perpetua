@@ -4,7 +4,7 @@
 (function(window)
 {
 	//===========/----------------------------------------------
-	//  [_CST]  /  Constructor
+	//  [_CTR]  /  Constructor
 	//=========/------------------------------------------------
 
 	function DocumentEvent(){}
@@ -21,9 +21,9 @@
 	//  [_CON]  /  Constants
 	//=========/------------------------------------------------
 
-	DocumentEvent.LOAD = "load";
+	DocumentEvent.LOADED = "load";
 	DocumentEvent.READY = "ready";
-	DocumentEvent.UNLOAD = "unload";
+	DocumentEvent.UNLOADED = "unload";
 
 
 	window.DocumentEvent = DocumentEvent;

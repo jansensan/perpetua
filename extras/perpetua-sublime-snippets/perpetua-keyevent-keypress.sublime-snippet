@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+KeyboardEvent.KEY_PRESSED
+]]></content>
+	<tabTrigger>keypress KeyboardEvent.KEY_PRESSED</tabTrigger>
+	<scope>source.js</scope>
+</snippet>

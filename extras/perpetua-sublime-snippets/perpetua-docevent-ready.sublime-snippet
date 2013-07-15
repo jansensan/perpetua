@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+DocumentEvent.READY
+]]></content>
+	<tabTrigger>ready DocumentEvent.READY</tabTrigger>
+	<scope>source.js</scope>
+</snippet>

@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+MouseEvent.MOUSE_MOVED_OUTSIDE
+]]></content>
+	<tabTrigger>mouseout MouseEvent.MOUSE_MOVED_OUTSIDE</tabTrigger>
+	<scope>source.js</scope>
+</snippet>

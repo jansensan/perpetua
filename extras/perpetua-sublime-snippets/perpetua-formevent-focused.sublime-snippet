@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+FormEvent.FOCUSED
+]]></content>
+	<tabTrigger>focus FormEvent.FOCUSED</tabTrigger>
+	<scope>source.js</scope>
+</snippet>

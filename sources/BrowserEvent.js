@@ -4,7 +4,7 @@
 (function(window)
 {
 	//===========/----------------------------------------------
-	//  [_CST]  /  Constructor
+	//  [_CTR]  /  Constructor
 	//=========/------------------------------------------------
 
 	function BrowserEvent(){}
@@ -22,9 +22,8 @@
 	//=========/------------------------------------------------
 
 	BrowserEvent.ERROR = "error";
-	BrowserEvent.RESIZE = "resize";
-	BrowserEvent.SCROLL = "scroll";
-
+	BrowserEvent.RESIZED = "resize";
+	BrowserEvent.SCROLLED = "scroll";
 
 	window.BrowserEvent = BrowserEvent;
 })(window);

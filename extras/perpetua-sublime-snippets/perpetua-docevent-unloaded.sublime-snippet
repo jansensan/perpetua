@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+DocumentEvent.UNLOADED
+]]></content>
+	<tabTrigger>unload DocumentEvent.UNLOADED</tabTrigger>
+	<scope>source.js</scope>
+</snippet>

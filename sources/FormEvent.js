@@ -4,7 +4,7 @@
 (function(window)
 {
 	//===========/----------------------------------------------
-	//  [_CST]  /  Constructor
+	//  [_CTR]  /  Constructor
 	//=========/------------------------------------------------
 
 	function FormEvent(){}
@@ -21,12 +21,12 @@
 	//  [_CON]  /  Constants
 	//=========/------------------------------------------------
 
-	FormEvent.BLUR = "blur";
-	FormEvent.CHANGE = "change";
-	FormEvent.FOCUS = "focus";
-	FormEvent.FOCUS_IN = "focusin";
-	FormEvent.SELECT = "select";
-	FormEvent.SUBMIT = "submit";
+	FormEvent.BLURRED = "blur";
+	FormEvent.CHANGED = "change";
+	FormEvent.FOCUSED = "focus";
+	FormEvent.FOCUSED_IN = "focusin";
+	FormEvent.SELECTED = "select";
+	FormEvent.SUBMITTED = "submit";
 
 
 	window.FormEvent = FormEvent;

@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+KeyboardEvent.FOCUS_LOST
+]]></content>
+	<tabTrigger>focusout KeyboardEvent.FOCUS_LOST</tabTrigger>
+	<scope>source.js</scope>
+</snippet>

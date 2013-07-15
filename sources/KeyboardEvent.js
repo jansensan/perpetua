@@ -4,7 +4,7 @@
 (function(window)
 {
 	//===========/----------------------------------------------
-	//  [_CST]  /  Constructor
+	//  [_CTR]  /  Constructor
 	//=========/------------------------------------------------
 
 	function KeyboardEvent(){}
@@ -21,9 +21,9 @@
 	//  [_CON]  /  Constants
 	//=========/------------------------------------------------
 
-	KeyboardEvent.FOCUS_OUT = "focusout";
+	KeyboardEvent.FOCUS_LOST = "focusout";
 	KeyboardEvent.KEY_DOWN = "keydown";
-	KeyboardEvent.KEY_PRESS = "keypress";
+	KeyboardEvent.KEY_PRESSED = "keypress";
 	KeyboardEvent.KEY_UP = "keyup";
 
 

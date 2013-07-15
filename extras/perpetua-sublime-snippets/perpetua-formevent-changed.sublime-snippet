@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+FormEvent.CHANGED
+]]></content>
+	<tabTrigger>change FormEvent.CHANGED</tabTrigger>
+	<scope>source.js</scope>
+</snippet>

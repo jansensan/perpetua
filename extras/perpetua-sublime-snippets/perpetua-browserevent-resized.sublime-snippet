@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+BrowserEvent.RESIZED
+]]></content>
+	<tabTrigger>resize BrowserEvent.RESIZED</tabTrigger>
+	<scope>source.js</scope>
+</snippet>

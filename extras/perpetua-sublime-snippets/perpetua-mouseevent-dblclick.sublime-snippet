@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+MouseEvent.DOUBLE_CLICKED
+]]></content>
+	<tabTrigger>dblclick MouseEvent.DOUBLE_CLICKED</tabTrigger>
+	<scope>source.js</scope>
+</snippet>
