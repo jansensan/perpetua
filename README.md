@@ -34,15 +34,15 @@ A while back, Robert Penner wrote about [how inconsistant the event names are in
 Some constant names are still in flux. I still have issue finding proper names for the following ones:  
 
 	FormEvent.FOCUSED  
-Should it be FormEvent.FOCUS_GAINED?
+Should it be `FormEvent.FOCUS_GAINED`?
 
 	FormEvent.FOCUSED_IN
 
-How distinct is this from "focus"? How should this be renamed?
+How distinct is this from `"focus"`? How should this be renamed?
 
 	KeyboardEvent.KEY_DOWN
 
-If I compare with `MouseEvent` constants, this should be renamed KeyboardEvent.KEY_PRESSED, but causes conflict with the actual `"keypress"` event. Or maybe should `MouseEvent.KEY_PRESSED` be renamed `MouseEvent.KEY_HELD_DOWN` or something like that?
+If I compare with `MouseEvent` constants, this should be renamed `KeyboardEvent.KEY_PRESSED`, but causes conflict with the actual `"keypress"` event. Or maybe should `MouseEvent.KEY_PRESSED` be renamed `MouseEvent.KEY_HELD_DOWN` or something like that?
 
 	KeyboardEvent.KEY_UP
 
@@ -63,9 +63,9 @@ See [Penner's article](http://flashblog.robertpenner.com/2009/08/my-critique-of-
 
 ## Documentation
 
-The classes are compressed into a single JS file with [Closure](http://closure-compiler.appspot.com/), removing all whitespace and comments, making it hard to read. Below is the list of the events currently available.
+The classes are compressed into a single JS file with [Closure](http://closure-compiler.appspot.com/), removing all whitespace and comments, making it hard to read. Below is the list of the events currently available, as a [quick reference](https://github.com/jansensan/perpetuajs#documentatio).
 
-As an extra, I created Sublime snippets, so you may simply use those and autocomplete will kick in to fill in the constant.
+As an extra, I created [Sublime Text snippets](https://github.com/jansensan/perpetua/tree/master/extras/perpetua-sublime-snippets), so you may simply use those and autocomplete will kick in to fill in the constant.
 
 
 ---
