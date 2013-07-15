@@ -1,5 +1,19 @@
 # Perpétua
 
+## Table of contents
+
+[Overview](https://github.com/jansensan/perpetuajs#overview)  
+
+[Naming convention](https://github.com/jansensan/perpetuajs#naming-convention)  
+&nbsp;&nbsp;&nbsp;&nbsp;[Issues](https://github.com/jansensan/perpetuajs#issues)  
+
+[Documentation](https://github.com/jansensan/perpetuajs#documentation)  
+&nbsp;&nbsp;&nbsp;&nbsp;[BrowserEvent](https://github.com/jansensan/perpetuajs#browserevent)  
+&nbsp;&nbsp;&nbsp;&nbsp;[DocumentEvent](https://github.com/jansensan/perpetuajs#documentevent)  
+&nbsp;&nbsp;&nbsp;&nbsp;[FormEvent](https://github.com/jansensan/perpetuajs#formevent)  
+&nbsp;&nbsp;&nbsp;&nbsp;[KeyboardEvent](https://github.com/jansensan/perpetuajs#keyboardevent)  
+&nbsp;&nbsp;&nbsp;&nbsp;[MouseEvent](https://github.com/jansensan/perpetuajs#mouseevent)  
+
 ## Overview
 
 Handling events in JavaScript requires the use of string litterals, which is prone to errors, mostly due to typos.
@@ -7,6 +21,9 @@ Handling events in JavaScript requires the use of string litterals, which is pro
 Coming from AS3, I prefer constants, such as `MouseEvent.CLICK` and the likes. In the end, that constant simply returns a string, but it prevents errors.
 
 Perpétua classes allow to use such constants. They are currently based upon the [events that jQuery uses](http://api.jquery.com/category/events/). As this library progresses, I will most probably add touch events and other events that browsers can dispatch in Javascript. 
+
+If you are curious, "perpétua" is the latin word for constance.
+
 
 ## Naming convention
 
@@ -50,6 +67,8 @@ The classes are compressed into a single JS file with Closure, removing all whit
 
 As an extra, I created Sublime snippets, so you may simply use those and autocomplete will kick in to fill in the constant.
 
+
+---
 ### BrowserEvent
 
 **ERROR** = "error"  
@@ -57,6 +76,7 @@ As an extra, I created Sublime snippets, so you may simply use those and autocom
 **SCROLLED** = "scroll"
 
 
+---
 ### DocumentEvent
 
 **LOADED** = "load"  
@@ -64,6 +84,7 @@ As an extra, I created Sublime snippets, so you may simply use those and autocom
 **UNLOADED** = "unload"  
 
 
+---
 ### FormEvent
 
 **BLURRED** = "blur"  
@@ -74,6 +95,7 @@ As an extra, I created Sublime snippets, so you may simply use those and autocom
 **SUBMITTED** = "submit"  
 
 
+---
 ### KeyboardEvent
 
 **FOCUS_LOST** = "focusout"  
@@ -81,6 +103,8 @@ As an extra, I created Sublime snippets, so you may simply use those and autocom
 **KEY_PRESSED** = "keypress"  
 **KEY_UP** = "keyup"  
 
+
+---
 ### MouseEvent
 
 **CLICKED** = "click"  
