@@ -1,0 +1,27 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Perpétua example</title>
+	</head>
+	<body>
+		<div id="button">Click me!</div>
+		<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+		<script src="../release/perpetua-0.3.min.js"></script>
+		<script>
+			var button;
+
+			function init()
+			{
+				button = jQuery("#button");
+				button.on(MouseEvent.CLICKED, onMouseClicked);
+			}
+
+			function onMouseClicked(_)
+			{
+				console.log("button has been clicked!");
+			}
+			
+			init();
+		</script>
+	</body>
+</html>
