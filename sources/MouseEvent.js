@@ -7,7 +7,10 @@
 	//  [_CTR]  /  Constructor
 	//=========/------------------------------------------------
 
-	function MouseEvent(){}
+	function MouseEvent()
+	{
+		throw new Error("Illegal operation: do not instantiate MouseEvent, simply use its static constants.");
+	}
 
 
 	//===========/----------------------------------------------

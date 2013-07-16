@@ -7,7 +7,10 @@
 	//  [_CTR]  /  Constructor
 	//=========/------------------------------------------------
 
-	function DocumentEvent(){}
+	function DocumentEvent()
+	{
+		throw new Error("Illegal operation: do not instantiate DocumentEvent, simply use its static constants.");
+	}
 
 
 	//===========/----------------------------------------------

@@ -7,7 +7,10 @@
 	//  [_CTR]  /  Constructor
 	//=========/------------------------------------------------
 
-	function KeyboardEvent(){}
+	function KeyboardEvent()
+	{
+		throw new Error("Illegal operation: do not instantiate KeyboardEvent, simply use its static constants.");
+	}
 
 
 	//===========/----------------------------------------------

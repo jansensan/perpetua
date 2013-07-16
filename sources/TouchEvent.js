@@ -7,7 +7,10 @@
 	//  [_CTR]  /  Constructor
 	//=========/------------------------------------------------
 
-	function TouchEvent(){}
+	function TouchEvent()
+	{
+		throw new Error("Illegal operation: do not instantiate TouchEvent, simply use its static constants.");
+	}
 
 
 	//===========/----------------------------------------------

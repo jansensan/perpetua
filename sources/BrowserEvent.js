@@ -7,7 +7,10 @@
 	//  [_CTR]  /  Constructor
 	//=========/------------------------------------------------
 
-	function BrowserEvent(){}
+	function BrowserEvent()
+	{
+		throw new Error("Illegal operation: do not instantiate BrowserEvent, simply use its static constants.");
+	}
 
 
 	//===========/----------------------------------------------
@@ -21,6 +24,7 @@
 	//  [_CON]  /  Constants
 	//=========/------------------------------------------------
 
+	BrowserEvent.ABORTED = "abort";
 	BrowserEvent.ERROR = "error";
 	BrowserEvent.RESIZED = "resize";
 	BrowserEvent.SCROLLED = "scroll";
