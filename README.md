@@ -7,12 +7,15 @@
 [Naming convention](https://github.com/jansensan/perpetuajs#naming-convention)  
 &nbsp;&nbsp;&nbsp;&nbsp;[Issues](https://github.com/jansensan/perpetuajs#issues)  
 
+[Usage](https://github.com/jansensan/perpetuajs#usage)
+
 [Documentation](https://github.com/jansensan/perpetuajs#documentation)  
 &nbsp;&nbsp;&nbsp;&nbsp;[BrowserEvent](https://github.com/jansensan/perpetuajs#browserevent)  
 &nbsp;&nbsp;&nbsp;&nbsp;[DocumentEvent](https://github.com/jansensan/perpetuajs#documentevent)  
 &nbsp;&nbsp;&nbsp;&nbsp;[FormEvent](https://github.com/jansensan/perpetuajs#formevent)  
 &nbsp;&nbsp;&nbsp;&nbsp;[KeyboardEvent](https://github.com/jansensan/perpetuajs#keyboardevent)  
-&nbsp;&nbsp;&nbsp;&nbsp;[MouseEvent](https://github.com/jansensan/perpetuajs#mouseevent)  
+&nbsp;&nbsp;&nbsp;&nbsp;[MouseEvent](https://github.com/jansensan/perpetuajs#mouseevent)    
+&nbsp;&nbsp;&nbsp;&nbsp;[TouchEvent](https://github.com/jansensan/perpetuajs#touchevent)  
 
 ## Overview
 
@@ -50,15 +53,41 @@ If `MouseEvent.KEY_DOWN` gets renamed `MouseEvent.KEY_PRESSED`, I will rename th
 
 Keep in mind that these above may change soon.
 
-See [Penner's article](http://flashblog.robertpenner.com/2009/08/my-critique-of-as3-events-part-1.html) for the reasoning behind this, but to be honest, event handling code becomes much more readable with verbs in the past tense:
 
-	var button = jQuery("#button");
-	button.on(MouseEvent.CLICKED, onButtonClicked);
-	
-	function onButtonClicked(_)
-	{
-		// code here
-	}
+## Usage
+
+Here is an example of how to use the Perpétua constants:
+
+	<html>
+		<head>
+			<meta charset="utf-8"><!-- allows to support accented character -->
+			<title>Perpétua example</title>
+		</head>
+		<body>
+			<div id="button">Click me!</div>
+			<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+			<script src="perpetua.min.js"></script><!-- TODO: use real file path instead -->
+			<script>
+				var button;
+
+				function init()
+				{
+					button = jQuery("#button");
+					button.on(MouseEvent.CLICKED, onMouseClicked);
+				}
+
+				function onMouseClicked(_)
+				{
+					console.log("button has been clicked!");
+				}
+				
+				init();
+			</script>
+		</body>
+	</html>
+
+
+As you can see from above, event handling code becomes much more readable with verbs in the past tense. See [Penner's article](http://flashblog.robertpenner.com/2009/08/my-critique-of-as3-events-part-1.html) for the reasoning behind this.
 
 
 ## Documentation
@@ -92,6 +121,7 @@ As an extra, I created [Sublime Text snippets](https://github.com/jansensan/perp
 **CHANGED** = "change"  
 **FOCUSED** = "focus" [* see Issues section](https://github.com/jansensan/perpetuajs#issues)  
 **FOCUSED_IN** = "focusin" [* see Issues section](https://github.com/jansensan/perpetuajs#issues)  
+**reset	** = "reset"  
 **SELECTED** = "select"  
 **SUBMITTED** = "submit"  
 
