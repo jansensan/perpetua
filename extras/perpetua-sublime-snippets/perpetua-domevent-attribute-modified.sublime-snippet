@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+DOMEvent.ATTRIBUTE_MODIFIED
+]]></content>
+	<tabTrigger>DOMAttrModified DOMEvent.ATTRIBUTE_MODIFIED</tabTrigger>
+	<scope>source.js</scope>
+</snippet>

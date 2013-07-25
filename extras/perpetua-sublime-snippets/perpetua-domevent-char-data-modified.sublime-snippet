@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+DOMEvent.CHARACTER_DATA_MODIFIED
+]]></content>
+	<tabTrigger>DOMCharacterDataModified DOMEvent.CHARACTER_DATA_MODIFIED</tabTrigger>
+	<scope>source.js</scope>
+</snippet>

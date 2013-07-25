@@ -1,7 +1,7 @@
 <snippet>
 	<content><![CDATA[
-KeyboardEvent.KEY_PRESSED
+KeyboardEvent.KEY_HELD_DOWN
 ]]></content>
-	<tabTrigger>keypress KeyboardEvent.KEY_PRESSED</tabTrigger>
+	<tabTrigger>keypress KeyboardEvent.KEY_HELD_DOWN</tabTrigger>
 	<scope>source.js</scope>
 </snippet>

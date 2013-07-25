@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+TouchEvent.MOVED_OUTSIDE
+]]></content>
+	<tabTrigger>touchleave TouchEvent.MOVED_OUTSIDE</tabTrigger>
+	<scope>source.js</scope>
+</snippet>

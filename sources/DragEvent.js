@@ -7,9 +7,9 @@
 	//  [_CTR]  /  Constructor
 	//=========/------------------------------------------------
 
-	function KeyboardEvent()
+	function DragEvent()
 	{
-		throw new Error("Illegal operation: do not instantiate KeyboardEvent, simply use its static constants.");
+		throw new Error("Illegal operation: do not instantiate DragEvent, simply use its static constants.");
 	}
 
 
@@ -17,17 +17,21 @@
 	//  [_PRO]  /  Prototype
 	//=========/------------------------------------------------
 
-	var p = KeyboardEvent.prototype;
+	var p = DragEvent.prototype;
 
 
 	//===========/----------------------------------------------
 	//  [_CON]  /  Constants
 	//=========/------------------------------------------------
 
-	KeyboardEvent.KEY_PRESSED = "keydown";
-	KeyboardEvent.KEY_HELD_DOWN = "keypress";
-	KeyboardEvent.KEY_RELEASED = "keyup";
+	DragEvent.STARTED = "dragstart";
+	DragEvent.DRAGGING = "drag";
+	DragEvent.DRAGGED_OVER = "dragenter";
+	DragEvent.DRAGGED_OUTSIDE = "dragleave";
+	DragEvent.DRAGGING_OVER = "dragover";
+	DragEvent.DROPPED = "drop";
+	DragEvent.ENDED = "dragend";
 
 
-	window.KeyboardEvent = KeyboardEvent;
+	window.DragEvent = DragEvent;
 })(window);

@@ -1,7 +1,7 @@
 <snippet>
 	<content><![CDATA[
-MouseEvent.MOVED_OVER
+TouchEvent.MOVED
 ]]></content>
-	<tabTrigger>mouseover MouseEvent.MOVED_OVER</tabTrigger>
+	<tabTrigger>touchmove TouchEvent.MOVED</tabTrigger>
 	<scope>source.js</scope>
 </snippet>

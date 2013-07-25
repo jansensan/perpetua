@@ -7,9 +7,9 @@
 	//  [_CTR]  /  Constructor
 	//=========/------------------------------------------------
 
-	function KeyboardEvent()
+	function UIEvent()
 	{
-		throw new Error("Illegal operation: do not instantiate KeyboardEvent, simply use its static constants.");
+		throw new Error("Illegal operation: do not instantiate UIEvent, simply use its static constants.");
 	}
 
 
@@ -17,17 +17,16 @@
 	//  [_PRO]  /  Prototype
 	//=========/------------------------------------------------
 
-	var p = KeyboardEvent.prototype;
+	var p = UIEvent.prototype;
 
 
 	//===========/----------------------------------------------
 	//  [_CON]  /  Constants
 	//=========/------------------------------------------------
 
-	KeyboardEvent.KEY_PRESSED = "keydown";
-	KeyboardEvent.KEY_HELD_DOWN = "keypress";
-	KeyboardEvent.KEY_RELEASED = "keyup";
+	UIEvent.FOCUSED = "focusin";
+	UIEvent.BLURRED = "focusout";
 
 
-	window.KeyboardEvent = KeyboardEvent;
+	window.UIEvent = UIEvent;
 })(window);

@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+DOMEvent.SUBTREE_MODIFIED
+]]></content>
+	<tabTrigger>DOMSubtreeModified DOMEvent.SUBTREE_MODIFIED</tabTrigger>
+	<scope>source.js</scope>
+</snippet>

@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+DOMEvent.NODE_INSERTED_INTO_DOCUMENT
+]]></content>
+	<tabTrigger>DOMNodeInsertedIntoDocument DOMEvent.NODE_INSERTED_INTO_DOCUMENT</tabTrigger>
+	<scope>source.js</scope>
+</snippet>

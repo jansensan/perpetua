@@ -1,7 +1,7 @@
 <snippet>
 	<content><![CDATA[
-MouseEvent.FOCUS_LOST
+TouchEvent.MOVED_OVER
 ]]></content>
-	<tabTrigger>focusout MouseEvent.FOCUS_LOST</tabTrigger>
+	<tabTrigger>touchenter TouchEvent.MOVED_OVER</tabTrigger>
 	<scope>source.js</scope>
 </snippet>
