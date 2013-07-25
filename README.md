@@ -27,7 +27,7 @@ Coming from AS3, I prefer constants, such as `MouseEvent.CLICKED` and the likes.
 
 Perpétua classes allow to use such constants. They are currently based upon the [events that jQuery uses](http://api.jquery.com/category/events/) and the [DOM events list on Wikipedia](http://en.wikipedia.org/wiki/DOM_events).
 
-If you are curious, "perpétua" is the latin word for constance.
+If you are curious, "perpétua" is a latin word for consistency.
 
 
 ## Naming convention
