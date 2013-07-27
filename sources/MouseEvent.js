@@ -26,12 +26,11 @@
 
 	MouseEvent.CLICKED = "click";
 	MouseEvent.DOUBLE_CLICKED = "dblclick";
-	MouseEvent.FOCUS_LOST = "focusout";
-	MouseEvent.MOUSE_PRESSED = "mousedown";
-	MouseEvent.MOUSE_MOVED = "mousemove";
-	MouseEvent.MOUSE_MOVED_OUTSIDE = "mouseout";
-	MouseEvent.MOUSE_MOVED_OVER = "mouseover";
-	MouseEvent.MOUSE_RELEASED = "mouseup";
+	MouseEvent.PRESSED = "mousedown";
+	MouseEvent.MOVED = "mousemove";
+	MouseEvent.MOVED_OUTSIDE = "mouseout";
+	MouseEvent.MOVED_OVER = "mouseover";
+	MouseEvent.RELEASED = "mouseup";
 
 
 	window.MouseEvent = MouseEvent;

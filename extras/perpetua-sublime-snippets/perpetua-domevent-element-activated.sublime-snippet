@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+DOMEvent.ELEMENT_ACTIVATED
+]]></content>
+	<tabTrigger>DOMActivate DOMEvent.ELEMENT_ACTIVATED</tabTrigger>
+	<scope>source.js</scope>
+</snippet>

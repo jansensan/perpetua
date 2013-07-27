@@ -1,7 +1,7 @@
 <snippet>
 	<content><![CDATA[
-MouseEvent.MOUSE_MOVED_OUTSIDE
+MouseEvent.MOVED_OUTSIDE
 ]]></content>
-	<tabTrigger>mouseout MouseEvent.MOUSE_MOVED_OUTSIDE</tabTrigger>
+	<tabTrigger>mouseout MouseEvent.MOVED_OUTSIDE</tabTrigger>
 	<scope>source.js</scope>
 </snippet>

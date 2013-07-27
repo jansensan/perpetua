@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+DOMEvent.NODE_REMOVED
+]]></content>
+	<tabTrigger>DOMNodeRemoved DOMEvent.NODE_REMOVED</tabTrigger>
+	<scope>source.js</scope>
+</snippet>
